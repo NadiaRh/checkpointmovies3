@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-container {
+    background-color: black;
+    width: 1170px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: white;
+    cursor: pointer;
+}
+
+.input-container label {
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.movies-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 1170px;
+    margin: auto;
+    display: block;
+    justify-content: space-around;
+    border: 1px solid black;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.pic {
+    height: auto;
+    width: 300px;
+}
